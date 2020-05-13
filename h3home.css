@@ -1,0 +1,62 @@
+.mt-6{margin-top: 0%}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.83);
+  }
+  .navbar{background-color:rgba(185, 202, 67, 0.78)}
+  .nav-link.active {
+      font-size: 18px;
+      font-weight: bolder;
+      border-bottom: 2px solid rgb(67, 250, 67);
+  color:rgb(67, 250, 67);
+    }
+    .active, .nav-link:hover {
+      font-size: 18px;
+      font-weight: bolder;
+      border-bottom: 2px solid rgb(67, 250, 67);
+  color:rgb(67, 250, 67);
+    }
+  .logo {
+      background-color: darkblue;
+      height: 50px;
+      width: 50px;
+    }
+
+
+    /* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+
+   
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  footer{background-color: rgb(200, 214, 108);
+  width:100%}
+
+  
